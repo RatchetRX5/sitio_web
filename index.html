@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Mi primera página</title>
+	<!--Define el conjunto de caracteres-->
+	<meta charset="utf-8">
+	<meta name="autor" content="UPSLP">
+	<!--Las estiquetas "Link" van en el encabezado como datos meta-->
+	<link rel="icon" type="image/jfif" href="imagenes/spnj.jfif">
+</head>
+<body>
+	<!--TITULOS-->
+	<header>
+		<h1>Mi primera chamba y página</h1>
+		<h1>Standing next to you</h1>
+		<h2>SI</h2>
+		<h3>NO</h3>
+		<h4>A LO MEJOR</h4>
+		<h5>TAL VEZ</h5>
+		<h6>Standing next to you</h6>
+	</header>
+	<!--Barra de navegacion-->
+	<nav>
+		<!--Etiqueta para hipervinculos, alt es para el texto alternativo-->
+		<a href="http://www.upslp.edu.mx" alt="Pagina UPSLP">UPSLP</a>
+		<!--Lista desordenada-->
+		<ul>
+			<li>principal</li>
+			<li>fotos</li>
+
+		</ul>
+		<!--Lista ordenada-->
+		<!--Con type definimos que tipo de caracter queremos usar para numerarlo, con start determinamos en que indice va a empezar-->
+		<ol type="A" start="25">
+			<a href="http://www.upslp.edu.mx" alt="Pagina UPSLP">
+				<li>hola</li>
+			</a>
+			<a href="http://google.com" alt="pagina google">
+				<li>adios</li>
+			</a>
+			<a href="Info.html" alt="segunda pagina">
+				<li>Pagina web 2</li>
+			</a>
+			
+		</ol>
+		<ol type="i" start="3">
+			<li>hola</li>
+			<li>adios</li>
+			<li>hola</li>
+			<li>adios</li>
+			<li>hola</li>
+			<li>adios</li>
+		</ol>
+	</nav>
+	<hr width="100%" align="left" size="50%" color="#A56DE8" noshade="" />
+	<!--Listas anidadas-->
+	<h2>Listas anidadas</h2>
+	<ol type="I">
+		<li>Tema 1</li>
+			<ul type="square">
+				<li>Subtema 1</li>
+				<li>Subtema 2</li>
+				<ol type="a">
+					<li>Contepto 1</li>
+					<li>Concepto 2</li>
+					<li>Contepto 3</li>
+				</ol>
+				<li>Subtema 3</li>
+			</ul>
+		<li>Tema 2</li>
+			<ul>
+				<li>Subtema 2.1</li>
+				
+				<li>Subtema 2.2</li>
+				<li>Subtema 2.3</li>
+			</ul>
+	</ol>
+	
+	<section>
+		<h1>Título de la sección</h1>
+		<p align="center">
+			<b>Lorem ipsum dolor</b> sit amet, <i>consectetur adipisicing elit</i>, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. 
+			<br/>
+			Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur.
+			<br/> 
+			Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		<p align="right">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.
+			<br/> 
+			Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur.
+			<br/><!--br es un salto de linea-->
+			 Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		<p align="justify">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.
+			<br/> 
+			Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur.
+			<br/><!--br es un salto de linea-->
+			 Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+
+	</section>
+	<aside>
+		<!--blockquote da una sangria, tabulacion-->
+		<blockquote>
+			Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</blockquote>
+		<blockquote>
+			Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</blockquote>
+	</aside>
+
+	<footer>
+		<!--Para agregar espacios en una misma linea se usa "&nbsp;"-->
+		<h3>Este &nbsp; es el pié de página.
+		Derechos reservados. &copy; 2024.</h3>
+	</footer>
+</body>
+</html>
