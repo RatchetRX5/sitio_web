@@ -7,8 +7,14 @@
 	<meta name="autor" content="UPSLP">
 	<!--Las estiquetas "Link" van en el encabezado como datos meta-->
 	<link rel="icon" type="image/jfif" href="imagenes/spnj.jfif">
+	<style type="text/css">
+		td{
+			border: 1px solid darkred;
+			background-color: lightskyblue;
+		}
+	</style>
 </head>
-<body>
+<body style="background-color: lightgray;">
 	<!--TITULOS-->
 	<header>
 		<h1>Mi primera chamba y página</h1>
@@ -78,7 +84,7 @@
 	
 	<section>
 		<h1>Título de la sección</h1>
-		<p align="center">
+		<p align="center" style="color: darkred;">
 			<b>Lorem ipsum dolor</b> sit amet, <i>consectetur adipisicing elit</i>, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -114,17 +120,17 @@
 			 Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</p>
-				<h2>Tablas</h2>
+		<h2>Tablas</h2>
 		<!--Formato de tablas-->
-		<table style="border: 3px double purple; background-color: lightcoral;">
+		<table style="border: 3px double purple; ">
 		<!-- Titulo de tabla-->
 		<caption>Tabla 1</caption>
 		<!--Cabecera de tablar-->
 		<thead>
 			<tr><!--Fila de tabla-->
-				<th style="border: 5px double;">Titulo 1</th><!--Columna de cabecera-->
+				<th colspan="2" style="border: 5px double;">Titulo 1</th><!--Columna de cabecera-->
 				<th>Titulo 2</th>
-				<th>Titulo 3</th>
+				
 			</tr>
 			
 		</thead>
@@ -151,6 +157,7 @@
 			</tr>
 		</tfoot>
 	</table>
+
 	</section>
 	<aside>
 		<!--blockquote da una sangria, tabulacion-->
@@ -161,6 +168,8 @@
 			Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</blockquote>
 	</aside>
+
+	
 
 	<footer>
 		<!--Para agregar espacios en una misma linea se usa "&nbsp;"-->
